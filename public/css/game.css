@@ -1,0 +1,138 @@
+body {
+  background-color: #45494F;
+  font-family: "SF Regular";
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.205) 0%, transparent 100% ) ,url("/images/quoridor5.png");
+}
+
+.downloadGame{
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.titleDiv {
+  margin-top: 2rem;
+  background-color: #C02433;
+  display: flex;
+  padding: 1rem;
+  width: 100.75%;
+}
+
+.divTitles{
+  color: white;
+  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin-top: 20%;
+}
+
+.divTitles2{
+  color: white;
+  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin-top: 20%;
+
+}
+
+.reviews{
+  background-color: #C02433;
+  height:40vh;
+  width:40vw;
+ margin-left: 10px;
+  justify-content: center;
+  align-content: center;
+  vertical-align: middle;
+}
+
+.link{
+  color: #C02433;
+  font-size: 2rem;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* Style of the Title Game */
+.divGameTitle {
+  color: white;
+  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size:4vw;
+}
+
+/* Style of the Big div from the Play section */
+.bg-videoGame {
+  background-color: #687075;
+  height:40vh;
+  width:40vw;
+  margin-right:10px;
+  justify-content: center;
+  align-content: center;
+  vertical-align: middle;
+}
+
+.divGame{
+  vertical-align: middle;
+}
+
+/* Style of the Button to REGISTER*/
+.btn-colorJoin {
+  font-weight: bold;
+  color: white;
+  width: 50%;
+  background-color: #45494F;
+}
+
+/* The color of the Background */
+.bg-greenColor {
+  background-color: #C02433;
+  height: 50rem;
+  margin-top: -10rem;
+  width: 30rem;
+}
+
+/* Margin of the cards */
+.margin-topCard {
+  margin-top: 17rem;
+}
+.margin-topCard2 {
+  margin-top: 13rem;
+}
+
+/* Style of the Title */
+.titleCard {
+  font-size: 2rem;
+  text-align: center;
+  margin-left: 6rem;
+  color: #C02433;
+  font-weight: bold;
+}
+
+/* All the labels Styles */
+.textStyle {
+  color: #45494F;
+  font-weight: bold;
+}
+
+.linkVideoGame {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-top: 20rem;
+  font-size: 3rem;
+}
+
+/* ########################################### */
+/*                @media PETITE                */
+/* ########################################### */
+@media (min-width: 300px) and (max-width: 813px) {
+
+  .bg-videoGame {
+
+    height: 50rem;
+    margin-top: -10rem;
+    width: 20rem;
+    margin-left: 10rem;
+  }
+}

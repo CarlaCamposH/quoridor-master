@@ -1,0 +1,87 @@
+body {
+  background-color: #45494F;
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.205) 0%, transparent 100% ) ,url("/images/quoridor5.png");
+}
+
+.container {
+  margin-top: 7rem;
+}
+
+.divTournamentTitle {
+  color: #C02433;
+  font-weight: bold;
+}
+
+.divSignUpTitle {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* The color of the Background */
+.bg-greenColor {
+  background-color: #C02433;
+  padding-bottom: 5rem;
+}
+
+/* Style of the Tournament Text */
+.textTournament {
+  color: white;
+}
+
+/* Style of the Image of the Trophy */
+.imageCopa {
+  margin-left: 2rem;
+  width: 400px;
+  height: 400px;
+}
+
+.btn-colorJoin {
+  color: white;
+  font-weight: bold;
+  margin-left: -10rem;
+  margin-top: 1rem;
+  background-color: #45494F;
+}
+
+/* The TR Style */
+.trPersons {
+  color: white;
+}
+
+/* Style of the Title Tournament */
+.divTournamentTitle2 {
+  color: #C02433;
+  font-weight: bold;
+}
+
+/* ########################################### */
+/*                @media PETITE                */
+/* ########################################### */
+@media (max-width: 768px) {
+  .bg-greenColor {
+    margin-top: -7rem;
+    height: 20rem;
+  }
+  .card-body {
+    margin-top: -3.5rem;
+  }
+  .divTournamentTitle {
+    margin-top: 1rem;
+  }
+  .divTournamentTitle2 {
+    margin-left: 1rem;
+  }
+  .imageCopa {
+    width: 300px;
+    height: 300px;
+  }
+  .container {
+    margin-top: 10rem;
+  }
+}

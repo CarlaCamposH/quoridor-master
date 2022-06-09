@@ -1,0 +1,74 @@
+body {
+  background-color: #45494F;
+  font-family: "SF Regular";
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.205) 0%, transparent 100% ) ,url("/images/quoridor5.png");
+}
+
+/* Style of the Button to REGISTER*/
+.btn-colorJoin {
+  font-weight: bold;
+  color: white;
+  width: 50%;
+  background-color: #45494F;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* The color of the Background */
+.bg-greenColor {
+  background-color: #C02433;
+}
+
+/* Margin of the cards */
+.margin-topCard {
+  margin-top: 17rem;
+}
+.margin-topCard2 {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-body {
+  margin-top: -2rem;
+}
+
+/* Title of the Register */
+.divRegisterTitle {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* Style of the Title */
+.titleCard {
+  font-size: 2rem;
+  text-align: center;
+  margin-left: 6rem;
+  color: #C02433;
+  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* All the labels Styles */
+.textStyle {
+  color: white;
+  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* ########################################### */
+/*                @media PETITE                */
+/* ########################################### */
+@media (max-width: 768px) {
+  .margin-topCard {
+    margin-left: -3rem;
+    margin-top: 1rem;
+  }
+  .margin-topCard2 {
+    margin-top: -0.5rem;
+  }
+}

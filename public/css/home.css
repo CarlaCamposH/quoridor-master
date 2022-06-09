@@ -1,0 +1,324 @@
+#body {
+  background-color: #45494F;
+  font-family: "SF Regular";
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.205) 0%, transparent 100% ) ,url("/images/quoridor5.png");
+}
+
+/* Div Container Home */
+.divRow1 {
+  margin-top: 10rem;
+}
+/* Div 2 Container Home */
+.divRow2 {
+  margin-top: 5rem;
+}
+
+/* Style of the Title About the Game */
+.aboutTheGame, .theGame {
+  font-size: 5rem;
+  font-weight: bold;
+  color: #C02433;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* Paragraf of the About the Game */
+.pAboutTheGame {
+  color: white;
+  line-height: 200%;
+  font-size: 130%;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.divImagen{
+  transform: rotate(5deg);
+}
+
+.divImagen:hover, .divImagen2:hover{
+
+  -webkit-transform:scale(1.2);transform:scale(1.2);
+  transition: ease-in-out 0.25s;
+}
+
+.divImagen2{
+  transform: rotate(-5deg);
+}
+
+
+
+/* Style of the Div Title */
+.titleDiv {
+  margin-top: 2rem;
+  background-color: #C02433;
+  display: flex;
+  padding: 1rem;
+  width: 100.75%;
+
+}
+
+/* Style of the Title */
+.title {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size:3vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.titleSections{
+  color: white;
+  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size:3vw;
+  text-align: center;
+
+}
+
+.titleDivSections{
+  background-color: #C02433;
+  text-align:center;
+  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+  justify-content:center;
+}
+/* Style of the Profile Image and SIGN IN Button*/
+.divImage {
+  display: inline-block;
+  justify-content: right;
+  align-content: center;
+  flex-direction: column;
+  margin-left: -12rem;
+  margin-top: 1rem;
+}
+.buttSIGNIN {
+  color: white;
+  margin-left: -10rem;
+  margin-top: 1rem;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* NAVBAR Styles*/
+/* Sidebar */
+#sidebar-wrapper{
+  z-index: 1;
+  position: absolute;
+  width: 0;
+  height: 100%;
+  overflow-y: hidden;
+  background: #C02433;
+  opacity: 0.9;
+	transition: all .5s;
+	display: flex;
+	align-items: center;
+}
+
+/* Main Content */
+#page-content-wrapper{
+  width: 100%;
+  position: absolute;
+  padding: 15px;
+	transition:all .5s;
+}
+
+#menu-toggle{
+	transition:all .3s;
+	font-size: 2em;
+  margin-top: 2rem;
+  z-index: 99;
+  margin-left: 2rem;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* Change the width of the sidebar to display it*/
+#wrapper.menuDisplayed #sidebar-wrapper{
+  width: 250px;
+}
+
+#wrapper.menuDisplayed #page-content-wrapper{
+  padding-left: 250px;
+}
+
+/* Sidebar styling */
+.sidebar-nav{
+  padding: 0;
+  list-style: none;
+	transition: all .5s;
+	width: 100%;
+	text-align: center;
+}
+
+.sidebar-nav .listNavbar{
+  line-height: 40px;
+	width: 100%;
+	transition: all .3s;
+	padding: 10px;
+}
+
+.sidebar-nav .listNavbar .aNavbar {
+  display: block;
+  text-decoration: none;
+  color: #ddd;
+}
+
+.sidebar-nav .listNavbar:hover{
+  background: #45494F;
+}
+
+.listNavbar a{
+  padding: 2rem;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.aNavbar:hover {
+  text-decoration: none;
+}
+
+.buttonPLAY {
+
+  font-weight: bold;
+  padding: 2rem;
+  font-size: 2rem;
+  background-color: #C02433;
+
+  color:white;
+  border-radius: 10px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.buttonPLAY:hover {
+  background-color: white;
+  color: #C02433;
+  transition: ease-in-out 0.50s;
+}
+
+.bg-colorMore{
+  background-color: #C02433;
+}
+
+/* ########################################### */
+/*                @media PETITE                */
+/* ########################################### */
+@media (min-width: 300px) and (max-width: 813px) {
+  .titleDiv {
+    width: 102.32%;
+  }
+  .divImage {
+    display: none;
+  }
+  .listNavbar {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .listNavbar a{
+    padding: 1rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  #wrapper.menuDisplayed #sidebar-wrapper{
+    width: 200px;
+  }
+  .title {
+    margin-left: -7.4rem;
+  }
+}
+
+/* TEST */
+
+#sectionsSelect .sectionsSelect-item {
+  max-width: 25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+#sectionsSelect .sectionsSelect-item .sectionsSelect-link {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+#sectionsSelect .sectionsSelect-item .sectionsSelect-link .sectionsSelect-hover {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(192, 36, 52, 0.521);
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity ease-in-out 0.25s;
+}
+#sectionsSelect .sectionsSelect-item .sectionsSelect-link .sectionsSelect-hover .sectionsSelect-hover-content {
+  font-size: 1.25rem;
+  color: white;
+}
+#sectionsSelect .sectionsSelect-item .sectionsSelect-link:hover .sectionsSelect-hover {
+  opacity: 1;
+}
+#sectionsSelect .sectionsSelect-item .sectionsSelect-caption {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #C02433;
+}
+#sectionsSelect .sectionsSelect-item .sectionsSelect-caption .sectionsSelect-caption-heading {
+  font-size: 1.5rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  margin-bottom: 0;
+
+}
+#sectionsSelect .sectionsSelect-item .sectionsSelect-caption .sectionsSelect-caption-subheading {
+  font-style: italic;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: white;
+}
+
+.sectionsSelect-modal .modal-dialog {
+  margin: 1rem;
+  max-width: 100vw;
+}
+.sectionsSelect-modal .modal-content {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+}
+.sectionsSelect-modal .modal-content h2 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+.sectionsSelect-modal .modal-content p.item-intro {
+  font-style: italic;
+  margin-bottom: 2rem;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.sectionsSelect-modal .modal-content p {
+  margin-bottom: 2rem;
+}
+.sectionsSelect-modal .modal-content ul.list-inline {
+  margin-bottom: 2rem;
+}
+.sectionsSelect-modal .modal-content img {
+  margin-bottom: 2rem;
+}
+.sectionsSelect-modal .close-modal {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+.sectionsSelect-modal .close-modal:hover {
+  opacity: 0.3;
+}

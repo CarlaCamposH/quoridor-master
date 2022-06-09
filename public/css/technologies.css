@@ -1,0 +1,246 @@
+body {
+  background-color: #45494F;
+  font-family: "SF Regular";
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.205) 0%, transparent 100% ) ,url("/images/quoridor5.png");
+}
+
+.titleDiv {
+  margin-top: 2rem;
+  background-color: #C02433;
+  display: flex;
+  padding: 1rem;
+  width: 100.75%;
+}
+
+.divTitles{
+  color: #C02433;
+  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.container {
+  margin-top: 5rem;
+}
+
+.title2{
+  color: white;
+  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size:180%;
+}
+
+.title3{
+  color: #C02433;
+  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size:180%;
+}
+
+/* Style of the Title Technologies */
+.divTechnoloiesTitle {
+  color: white;
+  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size:4vw;
+}
+.technologies > li .technologies-image:hover{
+  -webkit-transform:scale(1.2);transform:scale(1.2);
+  transition: ease-in-out 0.25s;
+
+}
+
+/* Text Style of the Technologies */
+.textTechnologies {
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.divRow {
+  margin-top: 1rem;
+  margin-bottom: -4rem;
+}
+
+/* ########################################### */
+/*                @media PETITE                */
+/* ########################################### */
+@media (min-width: 300px) and (max-width: 813px) {
+  .divTechnoloiesTitle {
+    width: 102.32%;
+    font-size: auto;
+  }
+  .divImage {
+    display: none;
+  }
+
+}
+/* test */
+.technologies {
+  position: relative;
+  padding: 0;
+  list-style: none;
+}
+.technologies:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 40px;
+  width: 2px;
+  margin-left: -1.5px;
+  content: "";
+  background-color: #e9ecef;
+}
+.technologies > li {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 50px;
+}
+.technologies > li:after, .technologies > li:before {
+  display: table;
+  content: " ";
+}
+.technologies > li:after {
+  clear: both;
+}
+.technologies > li .technologies-panel {
+  position: relative;
+  float: right;
+  width: 100%;
+  padding: 0 20px 0 100px;
+  text-align: left;
+}
+.technologies > li .technologies-panel:before {
+  right: auto;
+  left: -15px;
+  border-right-width: 15px;
+  border-left-width: 0;
+}
+.technologies > li .technologies-panel:after {
+  right: auto;
+  left: -14px;
+  border-right-width: 14px;
+  border-left-width: 0;
+}
+.technologies > li .technologies-image {
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  margin-left: 0;
+  text-align: center;
+  color: white;
+  border: 7px solid #e9ecef;
+  border-radius: 100%;
+  background-color: #ffa6a6;
+}
+.technologies > li .technologies-image h4 {
+  font-size: 10px;
+  line-height: 14px;
+  margin-top: 12px;
+}
+.technologies > li.technologies-inverted > .technologies-panel {
+  float: right;
+  padding: 0 20px 0 100px;
+  text-align: left;
+}
+.technologies > li.technologies-inverted > .technologies-panel:before {
+  right: auto;
+  left: -15px;
+  border-right-width: 15px;
+  border-left-width: 0;
+}
+.technologies > li.technologies-inverted > .technologies-panel:after {
+  right: auto;
+  left: -14px;
+  border-right-width: 14px;
+  border-left-width: 0;
+}
+.technologies > li:last-child {
+  margin-bottom: 0;
+}
+.technologies .technologies-heading h4 {
+  margin-top: 0;
+  color: inherit;
+}
+.technologies .technologies-heading h4.subheading {
+  text-transform: none;
+}
+.technologies .technologies-body > ul,
+.technologies .technologies-body > p {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .technologies:before {
+    left: 50%;
+  }
+  .technologies > li {
+    min-height: 100px;
+    margin-bottom: 100px;
+  }
+  .technologies > li .technologies-panel {
+    float: left;
+    width: 41%;
+    padding: 0 20px 20px 30px;
+    text-align: right;
+  }
+  .technologies > li .technologies-image {
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+  }
+  .technologies > li .technologies-image h4 {
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 16px;
+  }
+  .technologies > li.technologies-inverted > .technologies-panel {
+    float: right;
+    padding: 0 30px 20px 20px;
+    text-align: left;
+  }
+}
+@media (min-width: 992px) {
+  .technologies > li {
+    min-height: 150px;
+  }
+  .technologies > li .technologies-panel {
+    padding: 0 20px 20px;
+  }
+  .technologies > li .technologies-image {
+    width: 150px;
+    height: 150px;
+    margin-left: -75px;
+  }
+  .technologies > li .technologies-image h4 {
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 30px;
+  }
+  .technologies > li.technologies-inverted > .technologies-panel {
+    padding: 0 20px 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .technologies > li {
+    min-height: 170px;
+  }
+  .technologies > li .technologies-panel {
+    padding: 0 20px 20px 100px;
+  }
+  .technologies > li .technologies-image {
+    width: 170px;
+    height: 170px;
+    margin-left: -85px;
+  }
+  .technologies > li .technologies-image h4 {
+    margin-top: 40px;
+  }
+  .technologies > li.technologies-inverted > .technologies-panel {
+    padding: 0 100px 20px 20px;
+  }
+}

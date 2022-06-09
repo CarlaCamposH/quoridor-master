@@ -1,0 +1,139 @@
+body {
+  background-color: #45494F;
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.205) 0%, transparent 100% ) ,url("/images/quoridor5.png");
+}
+
+/* Style of the Title Card */
+.titleCard {
+  color: #C02433;
+  font-size: 3rem;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* Inline Row Block */
+.containerPers {
+  margin-left: 10rem;
+}
+
+/* Margin of the Cards */
+.margin-topCard {
+  margin-top: 5rem;
+  display: inline-block;
+}
+.margin-topCard2 {
+  margin-top: 10rem;
+  display: inline-block;
+}
+
+/* Style of the Sign In Title */
+.titleSignIn {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: -1rem;
+  font-weight: bold;
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* Text of the Card */
+.textCard {
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 0.75rem;
+}
+
+/* Padding of the Cards Bodies */
+.card-body {
+  padding: 3rem;
+}
+.card-body2 {
+  padding: 6rem;
+}
+
+/* Join Us Button Color */
+.btn-color {
+  background-color: #C02433;
+  color: white;
+  font-weight: bold;
+  width: 50%;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* Login Button Color */
+.btn-color2 {
+  background-color: #45494F;
+  color: white;
+  font-weight: bold;
+  width: 120%;
+  font-size: 105%;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* Style of the Button link */
+.btn-linkStyle {
+  font-weight: bold;
+  color: white;
+  margin-top: 1rem;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* The color of the Background */
+.bg-greenColor {
+  background-color: #C02433;
+}
+
+/* Text of the Label Email */
+.textLabelEmail {
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;
+}
+
+/* Text of the Label Password */
+.textLabelPass {
+  color: white;
+  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* Style of the Remember Me text */
+.styleRememberMe {
+  font-weight: bold;
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* ########################################### */
+/*                @media PETITE                */
+/* ########################################### */
+@media (max-width: 768px) {
+  .containerPers {
+    margin-left: 1rem;
+  }
+  .margin-topCard {
+    margin-top: 0rem;
+    display: block;
+  }
+  .margin-topCard2 {
+    margin-top: 5rem;
+    display: block;
+    width: 20rem;
+    margin-top: -1.5rem;
+    margin-left: 0.8rem;
+  }
+  .card-body2 {
+    padding-right: 4rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+  }
+  .bg-greenColor {
+    margin-bottom: 1.5rem;
+  }
+  .titleSignIn {
+    margin-bottom: -3rem;
+  }
+}

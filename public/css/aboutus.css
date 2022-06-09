@@ -1,0 +1,126 @@
+body {
+  background-color: #45494F;
+  font-family: "SF Regular";
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.205) 0%, transparent 100% ) ,url("/images/quoridor5.png");
+}
+
+.container {
+  margin-top: 5rem;
+}
+h1{
+  color: white;
+  font-weight: bold;
+  font-size:450%;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.divTitles{
+  color: white;
+  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+/* Style of the Title About us */
+.divAboutUsTitle {
+  color: white;
+  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size:4vw;
+}
+
+/* Text Style of the About Us */
+.textAboutUs {
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.divRow {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.titleDiv {
+  margin-top: 2rem;
+  background-color: #C02433;
+  display: flex;
+  padding: 1rem;
+  width: 100.75%;
+}
+
+.adress {
+  background-color: #687075;
+  margin-top: -14rem;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.findus{
+  color: #C02433;
+  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+
+h3{
+
+  transition: ease-in-out 0.25s;
+  font-size: 200%;
+
+}
+
+.divTexto:hover{
+  background:  rgba(255, 135, 135, 0.404);
+  transition: ease-in-out 0.25s;
+  font-size: 130%;
+  transform: rotate(5deg);
+  border-radius: 10px;
+
+
+}
+
+.divTexto2:hover{
+  background:  rgba(255, 135, 135, 0.404);
+  transition: ease-in-out 0.25s;
+  font-size: 130%;
+  transform: rotate(-5deg);
+  border-radius: 10px;
+}
+
+.where, .where2{
+  font-size: 130%;
+}
+
+.where:hover{
+  font-size: 150%;
+  transform: rotate(-5deg);
+  transition: ease-in-out 0.25s;
+}
+
+.where2:hover{
+  font-size: 150%;
+  transform: rotate(5deg);
+  transition: ease-in-out 0.25s;
+}
+
+/* ########################################### */
+/*                @media PETITE                */
+/* ########################################### */
+@media (min-width: 300px) and (max-width: 813px) {
+  .divAboutUsTitle {
+    width: 102.32%;
+  }
+  .divImage {
+    display: none;
+  }
+
+  .where2:hover, .where:hover{
+    font-size: 150%;
+    transition: ease-in-out 0.25s;
+  }
+
+
+}
